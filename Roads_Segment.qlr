@@ -1,0 +1,2655 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties/>
+    <layer-tree-group checked="Qt::Checked" expanded="1" name="TrafficRoads">
+      <customproperties/>
+      <layer-tree-layer legend_split_behavior="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1" source="../../../../../../EnviMet - Street Canyon Project /GRF NOx project /GIS Dataset/Highway_HK_line.shp|layername=Highway_HK_line|option:ADJUST_TYPE=YES|option:ADJUST_GEOM_TYPE=ALL_SHAPES|option:DBF_EOF_CHAR=YES|subset=&quot;highway&quot; = 'primary'" expanded="1" id="Primary_Road_a629dcf7_334a_4b6d_999a_863a08197041" name="Primary Road" providerKey="ogr">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer legend_split_behavior="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1" source="../../../../../../EnviMet - Street Canyon Project /GRF NOx project /GIS Dataset/Highway_HK_line.shp|layername=Highway_HK_line|option:ADJUST_TYPE=YES|option:ADJUST_GEOM_TYPE=ALL_SHAPES|option:DBF_EOF_CHAR=YES|subset=&quot;highway&quot; = 'secondary'" expanded="1" id="Secondary_Road_caa38e45_8b5d_4ca4_8301_e9f3e24cf2b3" name="Secondary Road" providerKey="ogr">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer legend_split_behavior="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1" source="../../../../../../EnviMet - Street Canyon Project /GRF NOx project /GIS Dataset/Highway_HK_line.shp|layername=Highway_HK_line|option:ADJUST_TYPE=YES|option:ADJUST_GEOM_TYPE=ALL_SHAPES|option:DBF_EOF_CHAR=YES|subset=&quot;highway&quot; = 'tertiary'" expanded="1" id="Tertiary_Road_e81ae1e7_46f0_4b0f_92ed_a817f26f218e" name="Tertiary Road" providerKey="ogr">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer legend_split_behavior="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1" source="../../../../../../EnviMet - Street Canyon Project /GRF NOx project /GIS Dataset/Highway_HK_line.shp|layername=Highway_HK_line|option:ADJUST_TYPE=YES|option:ADJUST_GEOM_TYPE=ALL_SHAPES|option:DBF_EOF_CHAR=YES|subset=&quot;highway&quot; = 'service'" expanded="1" id="Service_Road_12c368fb_cfbf_4eaf_95da_726522a02225" name="Service Road" providerKey="ogr">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer legend_split_behavior="0" checked="Qt::Checked" legend_exp="" patch_size="-1,-1" source="../../../../../../EnviMet - Street Canyon Project /GRF NOx project /GIS Dataset/Highway_HK_line.shp|layername=Highway_HK_line|option:ADJUST_TYPE=YES|option:ADJUST_GEOM_TYPE=ALL_SHAPES|option:DBF_EOF_CHAR=YES|subset=&quot;highway&quot; = 'residential'" expanded="1" id="Residential_Road_7d2f7921_408d_4d3a_998f_bb4f23e2a121" name="Residential Road" providerKey="ogr">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer styleCategories="AllStyleCategories" simplifyDrawingTol="1" wkbType="MultiLineString" geometry="Line" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" labelsEnabled="0" readOnly="0" maxScale="0" refreshOnNotifyMessage="" simplifyLocal="1" minScale="100000000" simplifyAlgorithm="0" simplifyDrawingHints="1" autoRefreshEnabled="0" autoRefreshTime="0" type="vector" simplifyMaxScale="1">
+      <extent>
+        <xmin>113.93177679999999441</xmin>
+        <ymin>22.24685889999999944</ymin>
+        <xmax>114.26381790000000649</xmax>
+        <ymax>22.52069050000000061</ymax>
+      </extent>
+      <id>Primary_Road_a629dcf7_334a_4b6d_999a_863a08197041</id>
+      <datasource>../../../../../../EnviMet - Street Canyon Project /GRF NOx project /GIS Dataset/Highway_HK_line.shp|layername=Highway_HK_line|option:ADJUST_TYPE=YES|option:ADJUST_GEOM_TYPE=ALL_SHAPES|option:DBF_EOF_CHAR=YES|subset="highway" = 'primary'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Primary Road</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" maxz="0" minx="0" crs="" dimensions="2" maxx="0" miny="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal startField="" endExpression="" durationField="" mode="0" fixedDuration="0" startExpression="" enabled="0" accumulate="0" endField="" durationUnit="min">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol type="line" name="0" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+              <prop v="0" k="align_dash_pattern"/>
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="dash_pattern_offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+              <prop v="MM" k="dash_pattern_offset_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="225,75,40,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.25" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="tweak_dash_pattern_on_corners"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="&quot;name&quot;" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory enabled="0" minScaleDenominator="0" scaleBasedVisibility="0" lineSizeType="MM" scaleDependency="Area" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" direction="0" penColor="#000000" labelPlacementMethod="XHeight" minimumSize="0" backgroundColor="#ffffff" rotationOffset="270" penWidth="0" width="15" height="15" penAlpha="255" spacingUnit="MM" barWidth="5" opacity="1" sizeScale="3x:0,0,0,0,0,0" showAxis="1" maxScaleDenominator="1e+08" sizeType="MM" backgroundAlpha="255" spacingUnitScale="3x:0,0,0,0,0,0" spacing="5">
+          <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" label="" color="#000000"/>
+          <axisSymbol>
+            <symbol type="line" name="" force_rhr="0" clip_to_extent="1" alpha="1">
+              <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+                <prop v="0" k="align_dash_pattern"/>
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="dash_pattern_offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+                <prop v="MM" k="dash_pattern_offset_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="tweak_dash_pattern_on_corners"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" type="QString" name="name"/>
+                    <Option name="properties"/>
+                    <Option value="collection" type="QString" name="type"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="2" linePlacementFlags="18" priority="0" obstacle="0" zIndex="0" dist="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="full_id" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_id" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_type" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="crossing" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="footway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="highway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lanes" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxspeed" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_en" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_zh" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oneway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxlength" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vehicle" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motor_vehi" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="covered" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bridge" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorroad_" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tunnel" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="full_id" name="" index="0"/>
+        <alias field="osm_id" name="" index="1"/>
+        <alias field="osm_type" name="" index="2"/>
+        <alias field="crossing" name="" index="3"/>
+        <alias field="footway" name="" index="4"/>
+        <alias field="highway" name="" index="5"/>
+        <alias field="lanes" name="" index="6"/>
+        <alias field="maxspeed" name="" index="7"/>
+        <alias field="name" name="" index="8"/>
+        <alias field="name_en" name="" index="9"/>
+        <alias field="name_zh" name="" index="10"/>
+        <alias field="oneway" name="" index="11"/>
+        <alias field="maxlength" name="" index="12"/>
+        <alias field="vehicle" name="" index="13"/>
+        <alias field="motor_vehi" name="" index="14"/>
+        <alias field="covered" name="" index="15"/>
+        <alias field="bridge" name="" index="16"/>
+        <alias field="motorroad_" name="" index="17"/>
+        <alias field="motorway" name="" index="18"/>
+        <alias field="tunnel" name="" index="19"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="full_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_type"/>
+        <default expression="" applyOnUpdate="0" field="crossing"/>
+        <default expression="" applyOnUpdate="0" field="footway"/>
+        <default expression="" applyOnUpdate="0" field="highway"/>
+        <default expression="" applyOnUpdate="0" field="lanes"/>
+        <default expression="" applyOnUpdate="0" field="maxspeed"/>
+        <default expression="" applyOnUpdate="0" field="name"/>
+        <default expression="" applyOnUpdate="0" field="name_en"/>
+        <default expression="" applyOnUpdate="0" field="name_zh"/>
+        <default expression="" applyOnUpdate="0" field="oneway"/>
+        <default expression="" applyOnUpdate="0" field="maxlength"/>
+        <default expression="" applyOnUpdate="0" field="vehicle"/>
+        <default expression="" applyOnUpdate="0" field="motor_vehi"/>
+        <default expression="" applyOnUpdate="0" field="covered"/>
+        <default expression="" applyOnUpdate="0" field="bridge"/>
+        <default expression="" applyOnUpdate="0" field="motorroad_"/>
+        <default expression="" applyOnUpdate="0" field="motorway"/>
+        <default expression="" applyOnUpdate="0" field="tunnel"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" field="full_id" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="osm_id" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="osm_type" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="crossing" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="footway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="highway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="lanes" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="maxspeed" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name_en" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name_zh" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="oneway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="maxlength" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="vehicle" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motor_vehi" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="covered" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="bridge" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motorroad_" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motorway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="tunnel" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="full_id" desc="" exp=""/>
+        <constraint field="osm_id" desc="" exp=""/>
+        <constraint field="osm_type" desc="" exp=""/>
+        <constraint field="crossing" desc="" exp=""/>
+        <constraint field="footway" desc="" exp=""/>
+        <constraint field="highway" desc="" exp=""/>
+        <constraint field="lanes" desc="" exp=""/>
+        <constraint field="maxspeed" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
+        <constraint field="name_en" desc="" exp=""/>
+        <constraint field="name_zh" desc="" exp=""/>
+        <constraint field="oneway" desc="" exp=""/>
+        <constraint field="maxlength" desc="" exp=""/>
+        <constraint field="vehicle" desc="" exp=""/>
+        <constraint field="motor_vehi" desc="" exp=""/>
+        <constraint field="covered" desc="" exp=""/>
+        <constraint field="bridge" desc="" exp=""/>
+        <constraint field="motorroad_" desc="" exp=""/>
+        <constraint field="motorway" desc="" exp=""/>
+        <constraint field="tunnel" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column hidden="0" width="-1" type="field" name="full_id"/>
+          <column hidden="0" width="-1" type="field" name="osm_id"/>
+          <column hidden="0" width="-1" type="field" name="osm_type"/>
+          <column hidden="0" width="-1" type="field" name="crossing"/>
+          <column hidden="0" width="-1" type="field" name="footway"/>
+          <column hidden="0" width="-1" type="field" name="highway"/>
+          <column hidden="0" width="-1" type="field" name="lanes"/>
+          <column hidden="0" width="-1" type="field" name="maxspeed"/>
+          <column hidden="0" width="-1" type="field" name="name"/>
+          <column hidden="0" width="-1" type="field" name="name_en"/>
+          <column hidden="0" width="-1" type="field" name="name_zh"/>
+          <column hidden="0" width="-1" type="field" name="oneway"/>
+          <column hidden="0" width="-1" type="field" name="maxlength"/>
+          <column hidden="0" width="-1" type="field" name="vehicle"/>
+          <column hidden="0" width="-1" type="field" name="motor_vehi"/>
+          <column hidden="0" width="-1" type="field" name="covered"/>
+          <column hidden="0" width="-1" type="field" name="bridge"/>
+          <column hidden="0" width="-1" type="field" name="motorroad_"/>
+          <column hidden="0" width="-1" type="field" name="motorway"/>
+          <column hidden="0" width="-1" type="field" name="tunnel"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="bridge"/>
+        <field editable="1" name="covered"/>
+        <field editable="1" name="crossing"/>
+        <field editable="1" name="footway"/>
+        <field editable="1" name="full_id"/>
+        <field editable="1" name="highway"/>
+        <field editable="1" name="lanes"/>
+        <field editable="1" name="maxlength"/>
+        <field editable="1" name="maxspeed"/>
+        <field editable="1" name="motor_vehi"/>
+        <field editable="1" name="motorroad_"/>
+        <field editable="1" name="motorway"/>
+        <field editable="1" name="name"/>
+        <field editable="1" name="name_en"/>
+        <field editable="1" name="name_zh"/>
+        <field editable="1" name="oneway"/>
+        <field editable="1" name="osm_id"/>
+        <field editable="1" name="osm_type"/>
+        <field editable="1" name="tunnel"/>
+        <field editable="1" name="vehicle"/>
+      </editable>
+      <labelOnTop>
+        <field name="bridge" labelOnTop="0"/>
+        <field name="covered" labelOnTop="0"/>
+        <field name="crossing" labelOnTop="0"/>
+        <field name="footway" labelOnTop="0"/>
+        <field name="full_id" labelOnTop="0"/>
+        <field name="highway" labelOnTop="0"/>
+        <field name="lanes" labelOnTop="0"/>
+        <field name="maxlength" labelOnTop="0"/>
+        <field name="maxspeed" labelOnTop="0"/>
+        <field name="motor_vehi" labelOnTop="0"/>
+        <field name="motorroad_" labelOnTop="0"/>
+        <field name="motorway" labelOnTop="0"/>
+        <field name="name" labelOnTop="0"/>
+        <field name="name_en" labelOnTop="0"/>
+        <field name="name_zh" labelOnTop="0"/>
+        <field name="oneway" labelOnTop="0"/>
+        <field name="osm_id" labelOnTop="0"/>
+        <field name="osm_type" labelOnTop="0"/>
+        <field name="tunnel" labelOnTop="0"/>
+        <field name="vehicle" labelOnTop="0"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"name"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" simplifyDrawingTol="1" wkbType="MultiLineString" geometry="Line" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" labelsEnabled="0" readOnly="0" maxScale="0" refreshOnNotifyMessage="" simplifyLocal="1" minScale="100000000" simplifyAlgorithm="0" simplifyDrawingHints="1" autoRefreshEnabled="0" autoRefreshTime="0" type="vector" simplifyMaxScale="1">
+      <extent>
+        <xmin>113.86247050000000058</xmin>
+        <ymin>22.22068679999999929</ymin>
+        <xmax>114.31962769999999807</xmax>
+        <ymax>22.55142509999999945</ymax>
+      </extent>
+      <id>Secondary_Road_caa38e45_8b5d_4ca4_8301_e9f3e24cf2b3</id>
+      <datasource>../../../../../../EnviMet - Street Canyon Project /GRF NOx project /GIS Dataset/Highway_HK_line.shp|layername=Highway_HK_line|option:ADJUST_TYPE=YES|option:ADJUST_GEOM_TYPE=ALL_SHAPES|option:DBF_EOF_CHAR=YES|subset="highway" = 'secondary'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Secondary Road</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" maxz="0" minx="0" crs="" dimensions="2" maxx="0" miny="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal startField="" endExpression="" durationField="" mode="0" fixedDuration="0" startExpression="" enabled="0" accumulate="0" endField="" durationUnit="min">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol type="line" name="0" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+              <prop v="0" k="align_dash_pattern"/>
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="dash_pattern_offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+              <prop v="MM" k="dash_pattern_offset_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="46,91,17,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="tweak_dash_pattern_on_corners"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory enabled="0" minScaleDenominator="0" scaleBasedVisibility="0" lineSizeType="MM" scaleDependency="Area" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" direction="0" penColor="#000000" labelPlacementMethod="XHeight" minimumSize="0" backgroundColor="#ffffff" rotationOffset="270" penWidth="0" width="15" height="15" penAlpha="255" spacingUnit="MM" barWidth="5" opacity="1" sizeScale="3x:0,0,0,0,0,0" showAxis="1" maxScaleDenominator="1e+08" sizeType="MM" backgroundAlpha="255" spacingUnitScale="3x:0,0,0,0,0,0" spacing="5">
+          <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" label="" color="#000000"/>
+          <axisSymbol>
+            <symbol type="line" name="" force_rhr="0" clip_to_extent="1" alpha="1">
+              <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+                <prop v="0" k="align_dash_pattern"/>
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="dash_pattern_offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+                <prop v="MM" k="dash_pattern_offset_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="tweak_dash_pattern_on_corners"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" type="QString" name="name"/>
+                    <Option name="properties"/>
+                    <Option value="collection" type="QString" name="type"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="2" linePlacementFlags="18" priority="0" obstacle="0" zIndex="0" dist="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="full_id" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_id" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_type" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="crossing" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="footway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="highway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lanes" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxspeed" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_en" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_zh" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oneway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxlength" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vehicle" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motor_vehi" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="covered" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bridge" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorroad_" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tunnel" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="full_id" name="" index="0"/>
+        <alias field="osm_id" name="" index="1"/>
+        <alias field="osm_type" name="" index="2"/>
+        <alias field="crossing" name="" index="3"/>
+        <alias field="footway" name="" index="4"/>
+        <alias field="highway" name="" index="5"/>
+        <alias field="lanes" name="" index="6"/>
+        <alias field="maxspeed" name="" index="7"/>
+        <alias field="name" name="" index="8"/>
+        <alias field="name_en" name="" index="9"/>
+        <alias field="name_zh" name="" index="10"/>
+        <alias field="oneway" name="" index="11"/>
+        <alias field="maxlength" name="" index="12"/>
+        <alias field="vehicle" name="" index="13"/>
+        <alias field="motor_vehi" name="" index="14"/>
+        <alias field="covered" name="" index="15"/>
+        <alias field="bridge" name="" index="16"/>
+        <alias field="motorroad_" name="" index="17"/>
+        <alias field="motorway" name="" index="18"/>
+        <alias field="tunnel" name="" index="19"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="full_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_type"/>
+        <default expression="" applyOnUpdate="0" field="crossing"/>
+        <default expression="" applyOnUpdate="0" field="footway"/>
+        <default expression="" applyOnUpdate="0" field="highway"/>
+        <default expression="" applyOnUpdate="0" field="lanes"/>
+        <default expression="" applyOnUpdate="0" field="maxspeed"/>
+        <default expression="" applyOnUpdate="0" field="name"/>
+        <default expression="" applyOnUpdate="0" field="name_en"/>
+        <default expression="" applyOnUpdate="0" field="name_zh"/>
+        <default expression="" applyOnUpdate="0" field="oneway"/>
+        <default expression="" applyOnUpdate="0" field="maxlength"/>
+        <default expression="" applyOnUpdate="0" field="vehicle"/>
+        <default expression="" applyOnUpdate="0" field="motor_vehi"/>
+        <default expression="" applyOnUpdate="0" field="covered"/>
+        <default expression="" applyOnUpdate="0" field="bridge"/>
+        <default expression="" applyOnUpdate="0" field="motorroad_"/>
+        <default expression="" applyOnUpdate="0" field="motorway"/>
+        <default expression="" applyOnUpdate="0" field="tunnel"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" field="full_id" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="osm_id" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="osm_type" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="crossing" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="footway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="highway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="lanes" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="maxspeed" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name_en" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name_zh" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="oneway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="maxlength" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="vehicle" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motor_vehi" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="covered" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="bridge" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motorroad_" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motorway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="tunnel" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="full_id" desc="" exp=""/>
+        <constraint field="osm_id" desc="" exp=""/>
+        <constraint field="osm_type" desc="" exp=""/>
+        <constraint field="crossing" desc="" exp=""/>
+        <constraint field="footway" desc="" exp=""/>
+        <constraint field="highway" desc="" exp=""/>
+        <constraint field="lanes" desc="" exp=""/>
+        <constraint field="maxspeed" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
+        <constraint field="name_en" desc="" exp=""/>
+        <constraint field="name_zh" desc="" exp=""/>
+        <constraint field="oneway" desc="" exp=""/>
+        <constraint field="maxlength" desc="" exp=""/>
+        <constraint field="vehicle" desc="" exp=""/>
+        <constraint field="motor_vehi" desc="" exp=""/>
+        <constraint field="covered" desc="" exp=""/>
+        <constraint field="bridge" desc="" exp=""/>
+        <constraint field="motorroad_" desc="" exp=""/>
+        <constraint field="motorway" desc="" exp=""/>
+        <constraint field="tunnel" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column hidden="0" width="-1" type="field" name="full_id"/>
+          <column hidden="0" width="-1" type="field" name="osm_id"/>
+          <column hidden="0" width="-1" type="field" name="osm_type"/>
+          <column hidden="0" width="-1" type="field" name="crossing"/>
+          <column hidden="0" width="-1" type="field" name="footway"/>
+          <column hidden="0" width="-1" type="field" name="highway"/>
+          <column hidden="0" width="-1" type="field" name="lanes"/>
+          <column hidden="0" width="-1" type="field" name="maxspeed"/>
+          <column hidden="0" width="-1" type="field" name="name"/>
+          <column hidden="0" width="-1" type="field" name="name_en"/>
+          <column hidden="0" width="-1" type="field" name="name_zh"/>
+          <column hidden="0" width="-1" type="field" name="oneway"/>
+          <column hidden="0" width="-1" type="field" name="maxlength"/>
+          <column hidden="0" width="-1" type="field" name="vehicle"/>
+          <column hidden="0" width="-1" type="field" name="motor_vehi"/>
+          <column hidden="0" width="-1" type="field" name="covered"/>
+          <column hidden="0" width="-1" type="field" name="bridge"/>
+          <column hidden="0" width="-1" type="field" name="motorroad_"/>
+          <column hidden="0" width="-1" type="field" name="motorway"/>
+          <column hidden="0" width="-1" type="field" name="tunnel"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="bridge"/>
+        <field editable="1" name="covered"/>
+        <field editable="1" name="crossing"/>
+        <field editable="1" name="footway"/>
+        <field editable="1" name="full_id"/>
+        <field editable="1" name="highway"/>
+        <field editable="1" name="lanes"/>
+        <field editable="1" name="maxlength"/>
+        <field editable="1" name="maxspeed"/>
+        <field editable="1" name="motor_vehi"/>
+        <field editable="1" name="motorroad_"/>
+        <field editable="1" name="motorway"/>
+        <field editable="1" name="name"/>
+        <field editable="1" name="name_en"/>
+        <field editable="1" name="name_zh"/>
+        <field editable="1" name="oneway"/>
+        <field editable="1" name="osm_id"/>
+        <field editable="1" name="osm_type"/>
+        <field editable="1" name="tunnel"/>
+        <field editable="1" name="vehicle"/>
+      </editable>
+      <labelOnTop>
+        <field name="bridge" labelOnTop="0"/>
+        <field name="covered" labelOnTop="0"/>
+        <field name="crossing" labelOnTop="0"/>
+        <field name="footway" labelOnTop="0"/>
+        <field name="full_id" labelOnTop="0"/>
+        <field name="highway" labelOnTop="0"/>
+        <field name="lanes" labelOnTop="0"/>
+        <field name="maxlength" labelOnTop="0"/>
+        <field name="maxspeed" labelOnTop="0"/>
+        <field name="motor_vehi" labelOnTop="0"/>
+        <field name="motorroad_" labelOnTop="0"/>
+        <field name="motorway" labelOnTop="0"/>
+        <field name="name" labelOnTop="0"/>
+        <field name="name_en" labelOnTop="0"/>
+        <field name="name_zh" labelOnTop="0"/>
+        <field name="oneway" labelOnTop="0"/>
+        <field name="osm_id" labelOnTop="0"/>
+        <field name="osm_type" labelOnTop="0"/>
+        <field name="tunnel" labelOnTop="0"/>
+        <field name="vehicle" labelOnTop="0"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"name"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" simplifyDrawingTol="1" wkbType="MultiLineString" geometry="Line" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" labelsEnabled="0" readOnly="0" maxScale="0" refreshOnNotifyMessage="" simplifyLocal="1" minScale="100000000" simplifyAlgorithm="0" simplifyDrawingHints="1" autoRefreshEnabled="0" autoRefreshTime="0" type="vector" simplifyMaxScale="1">
+      <extent>
+        <xmin>113.91992500000000632</xmin>
+        <ymin>22.21607960000000048</ymin>
+        <xmax>114.33678869999999961</xmax>
+        <ymax>22.55355000000000132</ymax>
+      </extent>
+      <id>Tertiary_Road_e81ae1e7_46f0_4b0f_92ed_a817f26f218e</id>
+      <datasource>../../../../../../EnviMet - Street Canyon Project /GRF NOx project /GIS Dataset/Highway_HK_line.shp|layername=Highway_HK_line|option:ADJUST_TYPE=YES|option:ADJUST_GEOM_TYPE=ALL_SHAPES|option:DBF_EOF_CHAR=YES|subset="highway" = 'tertiary'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Tertiary Road</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" maxz="0" minx="0" crs="" dimensions="2" maxx="0" miny="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal startField="" endExpression="" durationField="" mode="0" fixedDuration="0" startExpression="" enabled="0" accumulate="0" endField="" durationUnit="min">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol type="line" name="0" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+              <prop v="0" k="align_dash_pattern"/>
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="dash_pattern_offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+              <prop v="MM" k="dash_pattern_offset_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="19,36,105,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="tweak_dash_pattern_on_corners"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="&quot;name&quot;" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory enabled="0" minScaleDenominator="0" scaleBasedVisibility="0" lineSizeType="MM" scaleDependency="Area" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" direction="0" penColor="#000000" labelPlacementMethod="XHeight" minimumSize="0" backgroundColor="#ffffff" rotationOffset="270" penWidth="0" width="15" height="15" penAlpha="255" spacingUnit="MM" barWidth="5" opacity="1" sizeScale="3x:0,0,0,0,0,0" showAxis="1" maxScaleDenominator="1e+08" sizeType="MM" backgroundAlpha="255" spacingUnitScale="3x:0,0,0,0,0,0" spacing="5">
+          <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" label="" color="#000000"/>
+          <axisSymbol>
+            <symbol type="line" name="" force_rhr="0" clip_to_extent="1" alpha="1">
+              <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+                <prop v="0" k="align_dash_pattern"/>
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="dash_pattern_offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+                <prop v="MM" k="dash_pattern_offset_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="tweak_dash_pattern_on_corners"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" type="QString" name="name"/>
+                    <Option name="properties"/>
+                    <Option value="collection" type="QString" name="type"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="2" linePlacementFlags="18" priority="0" obstacle="0" zIndex="0" dist="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="full_id" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_id" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_type" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="crossing" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="footway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="highway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lanes" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxspeed" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_en" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_zh" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oneway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxlength" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vehicle" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motor_vehi" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="covered" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bridge" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorroad_" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tunnel" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="full_id" name="" index="0"/>
+        <alias field="osm_id" name="" index="1"/>
+        <alias field="osm_type" name="" index="2"/>
+        <alias field="crossing" name="" index="3"/>
+        <alias field="footway" name="" index="4"/>
+        <alias field="highway" name="" index="5"/>
+        <alias field="lanes" name="" index="6"/>
+        <alias field="maxspeed" name="" index="7"/>
+        <alias field="name" name="" index="8"/>
+        <alias field="name_en" name="" index="9"/>
+        <alias field="name_zh" name="" index="10"/>
+        <alias field="oneway" name="" index="11"/>
+        <alias field="maxlength" name="" index="12"/>
+        <alias field="vehicle" name="" index="13"/>
+        <alias field="motor_vehi" name="" index="14"/>
+        <alias field="covered" name="" index="15"/>
+        <alias field="bridge" name="" index="16"/>
+        <alias field="motorroad_" name="" index="17"/>
+        <alias field="motorway" name="" index="18"/>
+        <alias field="tunnel" name="" index="19"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="full_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_type"/>
+        <default expression="" applyOnUpdate="0" field="crossing"/>
+        <default expression="" applyOnUpdate="0" field="footway"/>
+        <default expression="" applyOnUpdate="0" field="highway"/>
+        <default expression="" applyOnUpdate="0" field="lanes"/>
+        <default expression="" applyOnUpdate="0" field="maxspeed"/>
+        <default expression="" applyOnUpdate="0" field="name"/>
+        <default expression="" applyOnUpdate="0" field="name_en"/>
+        <default expression="" applyOnUpdate="0" field="name_zh"/>
+        <default expression="" applyOnUpdate="0" field="oneway"/>
+        <default expression="" applyOnUpdate="0" field="maxlength"/>
+        <default expression="" applyOnUpdate="0" field="vehicle"/>
+        <default expression="" applyOnUpdate="0" field="motor_vehi"/>
+        <default expression="" applyOnUpdate="0" field="covered"/>
+        <default expression="" applyOnUpdate="0" field="bridge"/>
+        <default expression="" applyOnUpdate="0" field="motorroad_"/>
+        <default expression="" applyOnUpdate="0" field="motorway"/>
+        <default expression="" applyOnUpdate="0" field="tunnel"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" field="full_id" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="osm_id" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="osm_type" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="crossing" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="footway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="highway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="lanes" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="maxspeed" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name_en" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name_zh" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="oneway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="maxlength" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="vehicle" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motor_vehi" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="covered" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="bridge" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motorroad_" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motorway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="tunnel" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="full_id" desc="" exp=""/>
+        <constraint field="osm_id" desc="" exp=""/>
+        <constraint field="osm_type" desc="" exp=""/>
+        <constraint field="crossing" desc="" exp=""/>
+        <constraint field="footway" desc="" exp=""/>
+        <constraint field="highway" desc="" exp=""/>
+        <constraint field="lanes" desc="" exp=""/>
+        <constraint field="maxspeed" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
+        <constraint field="name_en" desc="" exp=""/>
+        <constraint field="name_zh" desc="" exp=""/>
+        <constraint field="oneway" desc="" exp=""/>
+        <constraint field="maxlength" desc="" exp=""/>
+        <constraint field="vehicle" desc="" exp=""/>
+        <constraint field="motor_vehi" desc="" exp=""/>
+        <constraint field="covered" desc="" exp=""/>
+        <constraint field="bridge" desc="" exp=""/>
+        <constraint field="motorroad_" desc="" exp=""/>
+        <constraint field="motorway" desc="" exp=""/>
+        <constraint field="tunnel" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;highway&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column hidden="0" width="-1" type="field" name="full_id"/>
+          <column hidden="0" width="-1" type="field" name="osm_id"/>
+          <column hidden="0" width="-1" type="field" name="osm_type"/>
+          <column hidden="0" width="-1" type="field" name="crossing"/>
+          <column hidden="0" width="-1" type="field" name="footway"/>
+          <column hidden="0" width="-1" type="field" name="highway"/>
+          <column hidden="0" width="-1" type="field" name="lanes"/>
+          <column hidden="0" width="-1" type="field" name="maxspeed"/>
+          <column hidden="0" width="-1" type="field" name="name"/>
+          <column hidden="0" width="-1" type="field" name="name_en"/>
+          <column hidden="0" width="-1" type="field" name="name_zh"/>
+          <column hidden="0" width="-1" type="field" name="oneway"/>
+          <column hidden="0" width="-1" type="field" name="maxlength"/>
+          <column hidden="0" width="-1" type="field" name="vehicle"/>
+          <column hidden="0" width="-1" type="field" name="motor_vehi"/>
+          <column hidden="0" width="-1" type="field" name="covered"/>
+          <column hidden="0" width="-1" type="field" name="bridge"/>
+          <column hidden="0" width="-1" type="field" name="motorroad_"/>
+          <column hidden="0" width="-1" type="field" name="motorway"/>
+          <column hidden="0" width="-1" type="field" name="tunnel"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="bridge"/>
+        <field editable="1" name="covered"/>
+        <field editable="1" name="crossing"/>
+        <field editable="1" name="footway"/>
+        <field editable="1" name="full_id"/>
+        <field editable="1" name="highway"/>
+        <field editable="1" name="lanes"/>
+        <field editable="1" name="maxlength"/>
+        <field editable="1" name="maxspeed"/>
+        <field editable="1" name="motor_vehi"/>
+        <field editable="1" name="motorroad_"/>
+        <field editable="1" name="motorway"/>
+        <field editable="1" name="name"/>
+        <field editable="1" name="name_en"/>
+        <field editable="1" name="name_zh"/>
+        <field editable="1" name="oneway"/>
+        <field editable="1" name="osm_id"/>
+        <field editable="1" name="osm_type"/>
+        <field editable="1" name="tunnel"/>
+        <field editable="1" name="vehicle"/>
+      </editable>
+      <labelOnTop>
+        <field name="bridge" labelOnTop="0"/>
+        <field name="covered" labelOnTop="0"/>
+        <field name="crossing" labelOnTop="0"/>
+        <field name="footway" labelOnTop="0"/>
+        <field name="full_id" labelOnTop="0"/>
+        <field name="highway" labelOnTop="0"/>
+        <field name="lanes" labelOnTop="0"/>
+        <field name="maxlength" labelOnTop="0"/>
+        <field name="maxspeed" labelOnTop="0"/>
+        <field name="motor_vehi" labelOnTop="0"/>
+        <field name="motorroad_" labelOnTop="0"/>
+        <field name="motorway" labelOnTop="0"/>
+        <field name="name" labelOnTop="0"/>
+        <field name="name_en" labelOnTop="0"/>
+        <field name="name_zh" labelOnTop="0"/>
+        <field name="oneway" labelOnTop="0"/>
+        <field name="osm_id" labelOnTop="0"/>
+        <field name="osm_type" labelOnTop="0"/>
+        <field name="tunnel" labelOnTop="0"/>
+        <field name="vehicle" labelOnTop="0"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"name"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" simplifyDrawingTol="1" wkbType="MultiLineString" geometry="Line" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" labelsEnabled="0" readOnly="0" maxScale="0" refreshOnNotifyMessage="" simplifyLocal="1" minScale="100000000" simplifyAlgorithm="0" simplifyDrawingHints="1" autoRefreshEnabled="0" autoRefreshTime="0" type="vector" simplifyMaxScale="1">
+      <extent>
+        <xmin>113.8595691999999957</xmin>
+        <ymin>22.16137249999999881</ymin>
+        <xmax>114.37679190000000062</xmax>
+        <ymax>22.56161050000000046</ymax>
+      </extent>
+      <id>Service_Road_12c368fb_cfbf_4eaf_95da_726522a02225</id>
+      <datasource>../../../../../../EnviMet - Street Canyon Project /GRF NOx project /GIS Dataset/Highway_HK_line.shp|layername=Highway_HK_line|option:ADJUST_TYPE=YES|option:ADJUST_GEOM_TYPE=ALL_SHAPES|option:DBF_EOF_CHAR=YES|subset="highway" = 'service'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Service Road</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" maxz="0" minx="0" crs="" dimensions="2" maxx="0" miny="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal startField="" endExpression="" durationField="" mode="0" fixedDuration="0" startExpression="" enabled="0" accumulate="0" endField="" durationUnit="min">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol type="line" name="0" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+              <prop v="0" k="align_dash_pattern"/>
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="dash_pattern_offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+              <prop v="MM" k="dash_pattern_offset_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="105,75,40,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="tweak_dash_pattern_on_corners"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="&quot;name&quot;" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory enabled="0" minScaleDenominator="0" scaleBasedVisibility="0" lineSizeType="MM" scaleDependency="Area" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" direction="0" penColor="#000000" labelPlacementMethod="XHeight" minimumSize="0" backgroundColor="#ffffff" rotationOffset="270" penWidth="0" width="15" height="15" penAlpha="255" spacingUnit="MM" barWidth="5" opacity="1" sizeScale="3x:0,0,0,0,0,0" showAxis="1" maxScaleDenominator="1e+08" sizeType="MM" backgroundAlpha="255" spacingUnitScale="3x:0,0,0,0,0,0" spacing="5">
+          <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" label="" color="#000000"/>
+          <axisSymbol>
+            <symbol type="line" name="" force_rhr="0" clip_to_extent="1" alpha="1">
+              <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+                <prop v="0" k="align_dash_pattern"/>
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="dash_pattern_offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+                <prop v="MM" k="dash_pattern_offset_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="tweak_dash_pattern_on_corners"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" type="QString" name="name"/>
+                    <Option name="properties"/>
+                    <Option value="collection" type="QString" name="type"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="2" linePlacementFlags="18" priority="0" obstacle="0" zIndex="0" dist="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="full_id" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_id" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_type" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="crossing" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="footway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="highway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lanes" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxspeed" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_en" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_zh" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oneway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxlength" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vehicle" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motor_vehi" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="covered" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bridge" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorroad_" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tunnel" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="full_id" name="" index="0"/>
+        <alias field="osm_id" name="" index="1"/>
+        <alias field="osm_type" name="" index="2"/>
+        <alias field="crossing" name="" index="3"/>
+        <alias field="footway" name="" index="4"/>
+        <alias field="highway" name="" index="5"/>
+        <alias field="lanes" name="" index="6"/>
+        <alias field="maxspeed" name="" index="7"/>
+        <alias field="name" name="" index="8"/>
+        <alias field="name_en" name="" index="9"/>
+        <alias field="name_zh" name="" index="10"/>
+        <alias field="oneway" name="" index="11"/>
+        <alias field="maxlength" name="" index="12"/>
+        <alias field="vehicle" name="" index="13"/>
+        <alias field="motor_vehi" name="" index="14"/>
+        <alias field="covered" name="" index="15"/>
+        <alias field="bridge" name="" index="16"/>
+        <alias field="motorroad_" name="" index="17"/>
+        <alias field="motorway" name="" index="18"/>
+        <alias field="tunnel" name="" index="19"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="full_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_type"/>
+        <default expression="" applyOnUpdate="0" field="crossing"/>
+        <default expression="" applyOnUpdate="0" field="footway"/>
+        <default expression="" applyOnUpdate="0" field="highway"/>
+        <default expression="" applyOnUpdate="0" field="lanes"/>
+        <default expression="" applyOnUpdate="0" field="maxspeed"/>
+        <default expression="" applyOnUpdate="0" field="name"/>
+        <default expression="" applyOnUpdate="0" field="name_en"/>
+        <default expression="" applyOnUpdate="0" field="name_zh"/>
+        <default expression="" applyOnUpdate="0" field="oneway"/>
+        <default expression="" applyOnUpdate="0" field="maxlength"/>
+        <default expression="" applyOnUpdate="0" field="vehicle"/>
+        <default expression="" applyOnUpdate="0" field="motor_vehi"/>
+        <default expression="" applyOnUpdate="0" field="covered"/>
+        <default expression="" applyOnUpdate="0" field="bridge"/>
+        <default expression="" applyOnUpdate="0" field="motorroad_"/>
+        <default expression="" applyOnUpdate="0" field="motorway"/>
+        <default expression="" applyOnUpdate="0" field="tunnel"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" field="full_id" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="osm_id" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="osm_type" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="crossing" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="footway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="highway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="lanes" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="maxspeed" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name_en" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name_zh" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="oneway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="maxlength" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="vehicle" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motor_vehi" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="covered" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="bridge" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motorroad_" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motorway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="tunnel" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="full_id" desc="" exp=""/>
+        <constraint field="osm_id" desc="" exp=""/>
+        <constraint field="osm_type" desc="" exp=""/>
+        <constraint field="crossing" desc="" exp=""/>
+        <constraint field="footway" desc="" exp=""/>
+        <constraint field="highway" desc="" exp=""/>
+        <constraint field="lanes" desc="" exp=""/>
+        <constraint field="maxspeed" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
+        <constraint field="name_en" desc="" exp=""/>
+        <constraint field="name_zh" desc="" exp=""/>
+        <constraint field="oneway" desc="" exp=""/>
+        <constraint field="maxlength" desc="" exp=""/>
+        <constraint field="vehicle" desc="" exp=""/>
+        <constraint field="motor_vehi" desc="" exp=""/>
+        <constraint field="covered" desc="" exp=""/>
+        <constraint field="bridge" desc="" exp=""/>
+        <constraint field="motorroad_" desc="" exp=""/>
+        <constraint field="motorway" desc="" exp=""/>
+        <constraint field="tunnel" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;highway&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column hidden="0" width="-1" type="field" name="full_id"/>
+          <column hidden="0" width="-1" type="field" name="osm_id"/>
+          <column hidden="0" width="-1" type="field" name="osm_type"/>
+          <column hidden="0" width="-1" type="field" name="crossing"/>
+          <column hidden="0" width="-1" type="field" name="footway"/>
+          <column hidden="0" width="-1" type="field" name="highway"/>
+          <column hidden="0" width="-1" type="field" name="lanes"/>
+          <column hidden="0" width="-1" type="field" name="maxspeed"/>
+          <column hidden="0" width="-1" type="field" name="name"/>
+          <column hidden="0" width="-1" type="field" name="name_en"/>
+          <column hidden="0" width="-1" type="field" name="name_zh"/>
+          <column hidden="0" width="-1" type="field" name="oneway"/>
+          <column hidden="0" width="-1" type="field" name="maxlength"/>
+          <column hidden="0" width="-1" type="field" name="vehicle"/>
+          <column hidden="0" width="-1" type="field" name="motor_vehi"/>
+          <column hidden="0" width="-1" type="field" name="covered"/>
+          <column hidden="0" width="-1" type="field" name="bridge"/>
+          <column hidden="0" width="-1" type="field" name="motorroad_"/>
+          <column hidden="0" width="-1" type="field" name="motorway"/>
+          <column hidden="0" width="-1" type="field" name="tunnel"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="bridge"/>
+        <field editable="1" name="covered"/>
+        <field editable="1" name="crossing"/>
+        <field editable="1" name="footway"/>
+        <field editable="1" name="full_id"/>
+        <field editable="1" name="highway"/>
+        <field editable="1" name="lanes"/>
+        <field editable="1" name="maxlength"/>
+        <field editable="1" name="maxspeed"/>
+        <field editable="1" name="motor_vehi"/>
+        <field editable="1" name="motorroad_"/>
+        <field editable="1" name="motorway"/>
+        <field editable="1" name="name"/>
+        <field editable="1" name="name_en"/>
+        <field editable="1" name="name_zh"/>
+        <field editable="1" name="oneway"/>
+        <field editable="1" name="osm_id"/>
+        <field editable="1" name="osm_type"/>
+        <field editable="1" name="tunnel"/>
+        <field editable="1" name="vehicle"/>
+      </editable>
+      <labelOnTop>
+        <field name="bridge" labelOnTop="0"/>
+        <field name="covered" labelOnTop="0"/>
+        <field name="crossing" labelOnTop="0"/>
+        <field name="footway" labelOnTop="0"/>
+        <field name="full_id" labelOnTop="0"/>
+        <field name="highway" labelOnTop="0"/>
+        <field name="lanes" labelOnTop="0"/>
+        <field name="maxlength" labelOnTop="0"/>
+        <field name="maxspeed" labelOnTop="0"/>
+        <field name="motor_vehi" labelOnTop="0"/>
+        <field name="motorroad_" labelOnTop="0"/>
+        <field name="motorway" labelOnTop="0"/>
+        <field name="name" labelOnTop="0"/>
+        <field name="name_en" labelOnTop="0"/>
+        <field name="name_zh" labelOnTop="0"/>
+        <field name="oneway" labelOnTop="0"/>
+        <field name="osm_id" labelOnTop="0"/>
+        <field name="osm_type" labelOnTop="0"/>
+        <field name="tunnel" labelOnTop="0"/>
+        <field name="vehicle" labelOnTop="0"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"name"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" simplifyDrawingTol="1" wkbType="MultiLineString" geometry="Line" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" labelsEnabled="0" readOnly="0" maxScale="0" refreshOnNotifyMessage="" simplifyLocal="1" minScale="100000000" simplifyAlgorithm="0" simplifyDrawingHints="1" autoRefreshEnabled="0" autoRefreshTime="0" type="vector" simplifyMaxScale="1">
+      <extent>
+        <xmin>113.86556640000000584</xmin>
+        <ymin>22.18976579999999998</ymin>
+        <xmax>114.33287839999999846</xmax>
+        <ymax>22.55862469999999931</ymax>
+      </extent>
+      <id>Residential_Road_7d2f7921_408d_4d3a_998f_bb4f23e2a121</id>
+      <datasource>../../../../../../EnviMet - Street Canyon Project /GRF NOx project /GIS Dataset/Highway_HK_line.shp|layername=Highway_HK_line|option:ADJUST_TYPE=YES|option:ADJUST_GEOM_TYPE=ALL_SHAPES|option:DBF_EOF_CHAR=YES|subset="highway" = 'residential'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Residential Road</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" maxz="0" minx="0" crs="" dimensions="2" maxx="0" miny="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal startField="" endExpression="" durationField="" mode="0" fixedDuration="0" startExpression="" enabled="0" accumulate="0" endField="" durationUnit="min">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol type="line" name="0" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+              <prop v="0" k="align_dash_pattern"/>
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="dash_pattern_offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+              <prop v="MM" k="dash_pattern_offset_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="219,156,83,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="tweak_dash_pattern_on_corners"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="&quot;name&quot;" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory enabled="0" minScaleDenominator="0" scaleBasedVisibility="0" lineSizeType="MM" scaleDependency="Area" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" direction="0" penColor="#000000" labelPlacementMethod="XHeight" minimumSize="0" backgroundColor="#ffffff" rotationOffset="270" penWidth="0" width="15" height="15" penAlpha="255" spacingUnit="MM" barWidth="5" opacity="1" sizeScale="3x:0,0,0,0,0,0" showAxis="1" maxScaleDenominator="1e+08" sizeType="MM" backgroundAlpha="255" spacingUnitScale="3x:0,0,0,0,0,0" spacing="5">
+          <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" label="" color="#000000"/>
+          <axisSymbol>
+            <symbol type="line" name="" force_rhr="0" clip_to_extent="1" alpha="1">
+              <layer locked="0" pass="0" enabled="1" class="SimpleLine">
+                <prop v="0" k="align_dash_pattern"/>
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="dash_pattern_offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+                <prop v="MM" k="dash_pattern_offset_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="tweak_dash_pattern_on_corners"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" type="QString" name="name"/>
+                    <Option name="properties"/>
+                    <Option value="collection" type="QString" name="type"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="2" linePlacementFlags="18" priority="0" obstacle="0" zIndex="0" dist="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="full_id" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_id" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osm_type" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="crossing" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="footway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="highway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lanes" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxspeed" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_en" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name_zh" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="oneway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maxlength" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vehicle" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motor_vehi" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="covered" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bridge" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorroad_" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motorway" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tunnel" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="full_id" name="" index="0"/>
+        <alias field="osm_id" name="" index="1"/>
+        <alias field="osm_type" name="" index="2"/>
+        <alias field="crossing" name="" index="3"/>
+        <alias field="footway" name="" index="4"/>
+        <alias field="highway" name="" index="5"/>
+        <alias field="lanes" name="" index="6"/>
+        <alias field="maxspeed" name="" index="7"/>
+        <alias field="name" name="" index="8"/>
+        <alias field="name_en" name="" index="9"/>
+        <alias field="name_zh" name="" index="10"/>
+        <alias field="oneway" name="" index="11"/>
+        <alias field="maxlength" name="" index="12"/>
+        <alias field="vehicle" name="" index="13"/>
+        <alias field="motor_vehi" name="" index="14"/>
+        <alias field="covered" name="" index="15"/>
+        <alias field="bridge" name="" index="16"/>
+        <alias field="motorroad_" name="" index="17"/>
+        <alias field="motorway" name="" index="18"/>
+        <alias field="tunnel" name="" index="19"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="full_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_id"/>
+        <default expression="" applyOnUpdate="0" field="osm_type"/>
+        <default expression="" applyOnUpdate="0" field="crossing"/>
+        <default expression="" applyOnUpdate="0" field="footway"/>
+        <default expression="" applyOnUpdate="0" field="highway"/>
+        <default expression="" applyOnUpdate="0" field="lanes"/>
+        <default expression="" applyOnUpdate="0" field="maxspeed"/>
+        <default expression="" applyOnUpdate="0" field="name"/>
+        <default expression="" applyOnUpdate="0" field="name_en"/>
+        <default expression="" applyOnUpdate="0" field="name_zh"/>
+        <default expression="" applyOnUpdate="0" field="oneway"/>
+        <default expression="" applyOnUpdate="0" field="maxlength"/>
+        <default expression="" applyOnUpdate="0" field="vehicle"/>
+        <default expression="" applyOnUpdate="0" field="motor_vehi"/>
+        <default expression="" applyOnUpdate="0" field="covered"/>
+        <default expression="" applyOnUpdate="0" field="bridge"/>
+        <default expression="" applyOnUpdate="0" field="motorroad_"/>
+        <default expression="" applyOnUpdate="0" field="motorway"/>
+        <default expression="" applyOnUpdate="0" field="tunnel"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" field="full_id" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="osm_id" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="osm_type" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="crossing" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="footway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="highway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="lanes" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="maxspeed" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name_en" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="name_zh" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="oneway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="maxlength" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="vehicle" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motor_vehi" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="covered" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="bridge" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motorroad_" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="motorway" constraints="0" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="tunnel" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="full_id" desc="" exp=""/>
+        <constraint field="osm_id" desc="" exp=""/>
+        <constraint field="osm_type" desc="" exp=""/>
+        <constraint field="crossing" desc="" exp=""/>
+        <constraint field="footway" desc="" exp=""/>
+        <constraint field="highway" desc="" exp=""/>
+        <constraint field="lanes" desc="" exp=""/>
+        <constraint field="maxspeed" desc="" exp=""/>
+        <constraint field="name" desc="" exp=""/>
+        <constraint field="name_en" desc="" exp=""/>
+        <constraint field="name_zh" desc="" exp=""/>
+        <constraint field="oneway" desc="" exp=""/>
+        <constraint field="maxlength" desc="" exp=""/>
+        <constraint field="vehicle" desc="" exp=""/>
+        <constraint field="motor_vehi" desc="" exp=""/>
+        <constraint field="covered" desc="" exp=""/>
+        <constraint field="bridge" desc="" exp=""/>
+        <constraint field="motorroad_" desc="" exp=""/>
+        <constraint field="motorway" desc="" exp=""/>
+        <constraint field="tunnel" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column hidden="0" width="-1" type="field" name="full_id"/>
+          <column hidden="0" width="-1" type="field" name="osm_id"/>
+          <column hidden="0" width="-1" type="field" name="osm_type"/>
+          <column hidden="0" width="-1" type="field" name="crossing"/>
+          <column hidden="0" width="-1" type="field" name="footway"/>
+          <column hidden="0" width="-1" type="field" name="highway"/>
+          <column hidden="0" width="-1" type="field" name="lanes"/>
+          <column hidden="0" width="-1" type="field" name="maxspeed"/>
+          <column hidden="0" width="-1" type="field" name="name"/>
+          <column hidden="0" width="-1" type="field" name="name_en"/>
+          <column hidden="0" width="-1" type="field" name="name_zh"/>
+          <column hidden="0" width="-1" type="field" name="oneway"/>
+          <column hidden="0" width="-1" type="field" name="maxlength"/>
+          <column hidden="0" width="-1" type="field" name="vehicle"/>
+          <column hidden="0" width="-1" type="field" name="motor_vehi"/>
+          <column hidden="0" width="-1" type="field" name="covered"/>
+          <column hidden="0" width="-1" type="field" name="bridge"/>
+          <column hidden="0" width="-1" type="field" name="motorroad_"/>
+          <column hidden="0" width="-1" type="field" name="motorway"/>
+          <column hidden="0" width="-1" type="field" name="tunnel"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="bridge"/>
+        <field editable="1" name="covered"/>
+        <field editable="1" name="crossing"/>
+        <field editable="1" name="footway"/>
+        <field editable="1" name="full_id"/>
+        <field editable="1" name="highway"/>
+        <field editable="1" name="lanes"/>
+        <field editable="1" name="maxlength"/>
+        <field editable="1" name="maxspeed"/>
+        <field editable="1" name="motor_vehi"/>
+        <field editable="1" name="motorroad_"/>
+        <field editable="1" name="motorway"/>
+        <field editable="1" name="name"/>
+        <field editable="1" name="name_en"/>
+        <field editable="1" name="name_zh"/>
+        <field editable="1" name="oneway"/>
+        <field editable="1" name="osm_id"/>
+        <field editable="1" name="osm_type"/>
+        <field editable="1" name="tunnel"/>
+        <field editable="1" name="vehicle"/>
+      </editable>
+      <labelOnTop>
+        <field name="bridge" labelOnTop="0"/>
+        <field name="covered" labelOnTop="0"/>
+        <field name="crossing" labelOnTop="0"/>
+        <field name="footway" labelOnTop="0"/>
+        <field name="full_id" labelOnTop="0"/>
+        <field name="highway" labelOnTop="0"/>
+        <field name="lanes" labelOnTop="0"/>
+        <field name="maxlength" labelOnTop="0"/>
+        <field name="maxspeed" labelOnTop="0"/>
+        <field name="motor_vehi" labelOnTop="0"/>
+        <field name="motorroad_" labelOnTop="0"/>
+        <field name="motorway" labelOnTop="0"/>
+        <field name="name" labelOnTop="0"/>
+        <field name="name_en" labelOnTop="0"/>
+        <field name="name_zh" labelOnTop="0"/>
+        <field name="oneway" labelOnTop="0"/>
+        <field name="osm_id" labelOnTop="0"/>
+        <field name="osm_type" labelOnTop="0"/>
+        <field name="tunnel" labelOnTop="0"/>
+        <field name="vehicle" labelOnTop="0"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"name"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
