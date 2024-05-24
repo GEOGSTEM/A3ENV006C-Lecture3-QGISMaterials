@@ -1,1 +1,5 @@
-地政總署底圖及標籤 URL（按以下連結開啓並複製完整的 URL）：https://onedrive.live.com/?authkey=%21ABK4xx9wpTHBc3E&id=E24C9B498E3B8545%21445&cid=E24C9B498E3B8545&parId=root&parQt=sharedby&o=OneUp
+地政總署底圖 URL：
+https://mapapi.geodata.gov.hk/gs/api/v1.0.0/xyz/basemap/wgs84/{z}/{x}/{y}.png
+
+地政總署標籤 URL：
+https://mapapi.geodata.gov.hk/gs/api/v1.0.0/xyz/label/hk/tc/wgs84/{z}/{x}/{y}.png
